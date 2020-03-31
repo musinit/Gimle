@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Gimle.Core</id>
+    <version>1.0.2</version>
+    <authors>Oleg Musin</authors>
+    <owners>Oleg Musin</owners>
+    <licenseUrl>https://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
+    <projectUrl>https://github.com/musinit/Gimle</projectUrl>
+    <iconUrl>https://upload.wikimedia.org/wikipedia/commons/6/63/Icon_Bird_512x512.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Dead simple SlackBot framework in .Net Core</description>
+    <summary>Dead simple SlackBot framework in .NET Core</summary>
+    <language>C#</language>
+    <releaseNotes>Initial row version</releaseNotes>
+    <copyright>Copyright 2020</copyright>
+    <tags>Slack Bot Framework C# .NET Core</tags>
+    <dependencies>
+      <dependency id="Newtonsoft.Json" version="12.0.3" />
+    </dependencies>
+  </metadata>
+</package>

@@ -1,0 +1,29 @@
+[
+  {
+    "type": "section",
+    "text": {
+      "type": "mrkdwn",
+      "text": "Gimle home example.\nTap button to change picture"
+    },
+    "accessory": {
+      "type": "image",
+      "image_url": "https://cdn3.iconfinder.com/data/icons/birds-23/50/4-512.png",
+      "alt_text": "profile photo"
+    }
+  },
+  {
+    "type": "actions",
+    "elements": [
+      {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "Change picture",
+          "emoji": true
+        },
+        "value": "details",
+        "action_id": "show_sparrow_action"
+      }
+    ]
+  }
+]

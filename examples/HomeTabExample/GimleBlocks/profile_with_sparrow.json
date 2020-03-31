@@ -1,0 +1,29 @@
+[
+  {
+    "type": "section",
+    "text": {
+      "type": "mrkdwn",
+      "text": "Gimle home example.\nTap button to change picture"
+    },
+    "accessory": {
+      "type": "image",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Icon_Bird_512x512.png",
+      "alt_text": "profile photo"
+    }
+  },
+  {
+    "type": "actions",
+    "elements": [
+      {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "Change picture",
+          "emoji": true
+        },
+        "value": "details",
+        "action_id": "show_crow_action"
+      }
+    ]
+  }
+]

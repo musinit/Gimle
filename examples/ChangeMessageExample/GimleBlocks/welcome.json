@@ -1,0 +1,35 @@
+[
+  {
+    "type": "section",
+    "text": {
+      "type": "mrkdwn",
+      "text": "Hello, [@name]!:party:\nHow are you?"
+    }
+  },
+  {
+    "type": "divider"
+  },
+  {
+    "type": "actions",
+    "elements": [
+      {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": ":smile: I am good!",
+          "emoji": true
+        },
+        "action_id": "good_mood_action"
+      },
+      {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": ":sad: Not very good..",
+          "emoji": true
+        },
+        "action_id": "bad_mood_action"
+      }
+    ]
+  }
+]

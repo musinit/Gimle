@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <RootNamespace>GimleApiExample</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\src\Gimle.Core\Gimle.Core.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <None Include="GimleBlocks\**" CopyToOutputDirectory="PreserveNewest" />
+    </ItemGroup>
+
+
+</Project>

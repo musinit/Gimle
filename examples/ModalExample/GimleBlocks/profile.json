@@ -1,0 +1,29 @@
+[
+  {
+    "type": "section",
+    "text": {
+      "type": "mrkdwn",
+      "text": "Gimle modal example.\nTap button to open modal window and input meaning of life\nYour version: [@meaning_of_life]"
+    },
+    "accessory": {
+      "type": "image",
+      "image_url": "https://cdn3.iconfinder.com/data/icons/birds-23/50/4-512.png",
+      "alt_text": "profile photo"
+    }
+  },
+  {
+    "type": "actions",
+    "elements": [
+      {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": "Open modal",
+          "emoji": true
+        },
+        "value": "details",
+        "action_id": "meaning_of_life_action"
+      }
+    ]
+  }
+]

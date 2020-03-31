@@ -1,0 +1,26 @@
+[
+  {
+    "type": "section",
+    "text": {
+      "type": "mrkdwn",
+      "text": "Hello, [@name]!:party:\nWant some joke?"
+    }
+  },
+  {
+    "type": "divider"
+  },
+  {
+    "type": "actions",
+    "elements": [
+      {
+        "type": "button",
+        "text": {
+          "type": "plain_text",
+          "text": ":smile: Yes, sure",
+          "emoji": true
+        },
+        "action_id": "joke_action"
+      }
+    ]
+  }
+]

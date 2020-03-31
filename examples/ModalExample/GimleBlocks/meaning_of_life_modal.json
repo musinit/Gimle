@@ -1,0 +1,17 @@
+[
+  {
+    "type": "input",
+    "element": {
+      "type": "plain_text_input",
+      "action_id": "meaning_of_life_field",
+      "placeholder": {
+        "type": "plain_text",
+        "text": "type meaning of life"
+      }
+    },
+    "label": {
+      "type": "plain_text",
+      "text": "Meaning of life"
+    }
+  }
+]
